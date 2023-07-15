@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formulário</title>
+</head>
+
+<body>
+    <!--Formulário-->
+    <h1>Isto é um formulário:</h1>
+
+    <div id="form">
+        <form action="" method="">
+            <!--Inserir elementos-->
+            <label for="first name">First Name:</labelfor></label>
+            <input type="text" name="First_name" placeholder="Aryya" required>
+
+            <label for="last name">Last Name:</labelfor></label>
+            <input type="text" name="last_name" placeholder="Paul" required>
+
+            <!--Selecionar ponto-->
+            <div>
+                <label for="gender_choice"> Male</label>
+                <input type="radio" name="gender_choice" value="choice_1"></input>
+
+                <label for="gender_choice"> Female</label>
+                <input type="radio" name="gender_choice" value="choice_2"></input>
+
+                <label for="gender_choice"> Other</label>
+                <input type="radio" name="gender_choice" value="choice_3"></input>
+            </div>
+
+            <div>
+                <label for="Email"> E-mail:</label>
+                <input type="email" name="email" placeholder="xyz@email.com" required></input>
+
+                <label for="Password"> Password:</label>
+                <input type="password" name="password"></input>
+
+            </div>
+
+            <div>
+
+                <label for="Month">Birthday</label>
+                <select name="Month">
+                    <option value="0" selected disabled>Month</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+            </select>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
